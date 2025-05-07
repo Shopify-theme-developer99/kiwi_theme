@@ -1,3 +1,105 @@
-h2.title.inline-richtext.h2.scroll-trigger.animate--slide-in {
-    color: red;
+:root {
+    --kiwi-green-color: #01472B; 
+    --kiwi-white-color: #fff;
+    --kiwi-pink-color: #FE9CCF;
+    --kiwi-blue-color: rgba(1, 71, 43, 0.06);
+    --kiwi-black-color: #000;
+}
+/* gap properties */
+.gap-1 {
+    gap: 4px;
+}
+.gap-2 {
+    gap: 8px;
+}
+.gap-3 {
+    gap: 12px;
+}
+.gap-4 {
+    gap: 16px;
+}
+.gap-5 {
+    gap: 20px;
+}
+/* common radius */
+.common-radius {
+    border-radius: 7px;
+}
+/* overflow */
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-auto {
+    overflow: auto;
+}
+/* col properties */
+.col-1 {
+    width: 100%;
+}
+.col-2 {
+    width: 48%;
+}
+.col-3 {
+    width: 31.5%;
+}
+.col-4 {
+    width: 24.5%;
+}
+.col-5 {
+    width: 18.5%;
+}
+/* grid properties */
+.two-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.three-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.four-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* flex properties */
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+/* order properties */
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.order-3 {
+    order: 3;
+}
+/* block properties */
+.inline-block {
+    display: inline-block;
+}
+.block {
+    display: block;
+}
+.inline {
+    display: inline;
+}
+/* font properties */
+.heading-properties {
+    font-size: 24px;
+}
+.tab-heading-properties {
+    font-size: 10px;
+}
+.card-heading-properties {
+    font-size: 10px;
 }
