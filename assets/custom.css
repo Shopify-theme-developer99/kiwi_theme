@@ -67,11 +67,23 @@
 .flex {
     display: flex;
 }
+.justify-start {
+    justify-content: start;
+}
 .justify-center {
     justify-content: center;
 }
+.justify-end {
+    justify-content: end;
+}
+.align-start {
+    align-items: start;
+}
 .align-center {
     align-items: center;
+}
+.align-baseline {
+    align-items: baseline;
 }
 /* order properties */
 .order-1 {
@@ -102,4 +114,81 @@
 }
 .card-heading-properties {
     font-size: 10px;
+}
+/* --------- */
+
+@media screen and (max-width: 1068px) {
+    /* order properties */
+    .sm-order-none {
+        order: unset;
+    }
+    /* block properties */
+    .sm-block {
+        display: block;
+    }
+    .sm-inline {
+        display: inline;
+    }
+    /* font properties */
+    .sm-heading-properties {
+        font-size: 24px;
+    }
+    .sm-tab-heading-properties {
+        font-size: 10px;
+    }
+    .sm-card-heading-properties {
+        font-size: 10px;
+    }
+    /* flex properties */
+    .sm-justify-start {
+        justify-content: start;
+    }
+    .sm-justify-center {
+        justify-content: center;
+    }
+    .sm-justify-end {
+        justify-content: end;
+    }
+    .sm-align-start {
+        align-items: start;
+    }
+    .sm-align-center {
+        align-items: center;
+    }
+    .sm-align-baseline {
+        align-items: baseline;
+    }
+    /* grid properties */
+    .sm-col-1 {
+        width: 100%;
+    }
+    .sm-col-2 {
+        width: 48%;
+    }
+    .sm-col-3 {
+        width: 31.5%;
+    }
+    .sm-col-4 {
+        width: 24.5%;
+    }
+    .sm-col-5 {
+        width: 18.5%;
+    }
+    /* gap properties */
+    .sm-gap-1 {
+        gap: 4px;
+    }
+    .sm-gap-2 {
+        gap: 8px;
+    }
+    .sm-gap-3 {
+        gap: 12px;
+    }
+    .sm-gap-4 {
+        gap: 16px;
+    }
+    .sm-gap-5 {
+        gap: 20px;
+    }
+    /* --------- */
 }
